@@ -1,0 +1,4 @@
+- create lib to ease usage of gphoto2. Will be camera agnostic. This shouldn't be done only for timelapse
+- wake-up camera
+- send images to FTP
+- deep sleep raspi
