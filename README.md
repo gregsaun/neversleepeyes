@@ -1,2 +1,2 @@
 # neversleepeyes
-timelapse using gphoto2
+Timelapse using [gphoto2](http://gphoto.org/)
