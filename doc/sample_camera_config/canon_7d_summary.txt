@@ -1,0 +1,31 @@
+Camera summary:
+Manufacturer: Canon Inc.
+Model: Canon EOS 7D
+  Version: 3-2.0.3
+  Serial Number: 7ad2bf54f842475fae71fec5ca34d191
+Vendor Extension ID: 0xb (2.0)
+
+Capture Formats: JPEG
+Display Formats: Association/Directory, Script, DPOF, MS AVI, MS Wave, JPEG, CRW, Unknown(b103), Unknown(bf02), Defined Type, Unknown(b104)
+
+Device Capabilities:
+	File Download, File Deletion, File Upload
+	No Image Capture, No Open Capture, Canon EOS Capture, Canon EOS Shutter Button
+
+Storage Devices Summary:
+store_00010001:
+	StorageDescription: CF
+	VolumeLabel: None
+	Storage Type: Removable RAM (memory card)
+	Filesystemtype: Digital Camera Layout (DCIM)
+	Access Capability: Read-Write
+	Maximum Capability: 7998078976 (7627 MB)
+	Free Space (Bytes): 3079274496 (2936 MB)
+	Free Space (Images): -1
+
+Device Property Summary:
+Property 0xd402:(read only) (type=0xffff) 'Canon EOS 7D'
+Property 0xd407:(read only) (type=0x6) 1
+Property 0xd406:(readwrite) (type=0xffff) 'Unknown Initiator'
+Property 0xd303:(read only) (type=0x2) 1
+

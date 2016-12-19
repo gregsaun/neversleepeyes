@@ -1,0 +1,3451 @@
+/main/actions/bulb
+Label: Mode pose longue
+Type: TOGGLE
+Current: 2
+/main/actions/autofocusdrive
+Label: Fonction de mise au point automatique d'appareil reflex numérique Nikon
+Type: TOGGLE
+Current: 0
+/main/actions/manualfocusdrive
+Label: Fonction de mise au point manuelle d'appareil reflex numérique Nikon
+Type: RANGE
+Current: 0
+Bottom: -32767
+Top: 32767
+Step: 1
+/main/actions/changeafarea
+Label: Définition de zone de mise au point automatique Nikon
+Type: TEXT
+Current: (null)
+/main/actions/controlmode
+Label: Définition du mode de contrôle Nikon
+Type: TEXT
+Current: 0
+/main/actions/viewfinder
+Label: Viewfinder de Nikon
+Type: TOGGLE
+Current: 0
+/main/actions/movie
+Label: Acquisition de film
+Type: TOGGLE
+Current: 2
+/main/actions/opcode
+Label: PTP Opcode
+Type: TEXT
+Current: 0x1001,0xparam1,0xparam2
+/main/settings/datetime
+Label: Date et heure de l'appareil
+Type: DATE
+Current: 1471806588
+Printable: dim. 21 août 2016 21:09:48 CEST
+Help: Utiliser « maintenant » comme date actuelle de réglage.
+
+/main/settings/imagecomment
+Label: Commentaire de l'image
+Type: TEXT
+Current:                                     
+/main/settings/imagecommentenable
+Label: Permettre les commentaires d'image
+Type: RADIO
+Current: Désactivé
+Choice: 0 Activé
+Choice: 1 Désactivé
+/main/settings/recordingmedia
+Label: Support d'enregistrement
+Type: RADIO
+Current: SDRAM
+Choice: 0 Carte
+Choice: 1 SDRAM
+Choice: 2 Valeur 0002 inconnue
+/main/settings/artist
+Label: Artiste
+Type: TEXT
+Current: (null)
+/main/settings/copyright
+Label: Copyright
+Type: TEXT
+Current: (null)
+/main/settings/cleansensor
+Label: Nettoyer le capteur
+Type: RADIO
+Current: Démarrage et arrêt
+Choice: 0 Désactivé
+Choice: 1 Démarrage
+Choice: 2 Arrêt
+Choice: 3 Démarrage et arrêt
+/main/settings/fastfs
+Label: Système de fichiers rapide
+Type: TOGGLE
+Current: 1
+/main/settings/capturetarget
+Label: Cible d'acquisition
+Type: RADIO
+Current: Carte mémoire
+Choice: 0 Mémoire interne
+Choice: 1 Carte mémoire
+/main/status/serialnumber
+Label: Numéro de série
+Type: TEXT
+Current: Aucune
+/main/status/manufacturer
+Label: Fabricant de l'appareil
+Type: TEXT
+Current: Nikon Corporation
+/main/status/cameramodel
+Label: Modèle de l'appareil photographique
+Type: TEXT
+Current: D800
+/main/status/deviceversion
+Label: Version du périphérique
+Type: TEXT
+Current: V1.10
+/main/status/vendorextension
+Label: Extension du fabricant
+Type: TEXT
+Current: microsoft.com: 1.0
+/main/status/acpower
+Label: Alimentation sur secteur
+Type: RADIO
+Current: Désactivé
+Choice: 0 Activé
+Choice: 1 Désactivé
+/main/status/externalflash
+Label: Flash externe
+Type: RADIO
+Current: Désactivé
+Choice: 0 Activé
+Choice: 1 Désactivé
+/main/status/batterylevel
+Label: Niveau de batterie
+Type: TEXT
+Current: 100%
+/main/status/orientation
+Label: Orientation de la l'appareil
+Type: RADIO
+Current: 0'
+Choice: 0 0'
+Choice: 1 270'
+Choice: 2 90'
+Choice: 3 180'
+/main/status/orientation2
+Label: Orientation de la l'appareil
+Type: TEXT
+Current: 357'
+/main/status/flashopen
+Label: Flash activé
+Type: RADIO
+Current: Désactivé
+Choice: 0 Activé
+Choice: 1 Désactivé
+/main/status/flashcharged
+Label: Flash chargé
+Type: RADIO
+Current: Désactivé
+Choice: 0 Activé
+Choice: 1 Désactivé
+/main/status/minfocallength
+Label: Distance focale minimale
+Type: TEXT
+Current: 24 mm
+/main/status/maxfocallength
+Label: Distance focale maximale
+Type: TEXT
+Current: 70 mm
+/main/status/apertureatminfocallength
+Label: Ouverture maximale à distance focale minimale
+Type: TEXT
+Current: 3
+/main/status/apertureatmaxfocallength
+Label: Ouverture minimale à distance focale maximale
+Type: TEXT
+Current: 3
+/main/status/lowlight
+Label: Lumière faible
+Type: RANGE
+Current: 0
+Bottom: 0
+Top: 3
+Step: 1
+/main/status/lightmeter
+Label: Posemètre
+Type: RANGE
+Current: -18
+Bottom: -60
+Top: 60
+Step: 1
+/main/status/aflocked
+Label: Mise au point automatique verrouillée
+Type: RADIO
+Current: Désactivé
+Choice: 0 Activé
+Choice: 1 Désactivé
+/main/status/aelocked
+Label: Exposition automatique verrouillée
+Type: RADIO
+Current: Désactivé
+Choice: 0 Activé
+Choice: 1 Désactivé
+/main/status/fvlocked
+Label: Valeur de flash verrouillée
+Type: RADIO
+Current: Désactivé
+Choice: 0 Activé
+Choice: 1 Désactivé
+/main/imgsettings/imagesize
+Label: Taille d'image
+Type: RADIO
+Current: 7360x4912
+Choice: 0 7360x4912
+Choice: 1 5520x3680
+/main/imgsettings/iso
+Label: Vitesse ISO
+Type: RADIO
+Current: 1000
+Choice: 0 50
+Choice: 1 64
+Choice: 2 80
+Choice: 3 100
+Choice: 4 125
+Choice: 5 160
+Choice: 6 200
+Choice: 7 250
+Choice: 8 320
+Choice: 9 400
+Choice: 10 500
+Choice: 11 640
+Choice: 12 800
+Choice: 13 1000
+Choice: 14 1250
+Choice: 15 1600
+Choice: 16 2000
+Choice: 17 2500
+Choice: 18 3200
+Choice: 19 4000
+Choice: 20 5000
+Choice: 21 6400
+Choice: 22 8000
+Choice: 23 10000
+Choice: 24 12800
+Choice: 25 25600
+/main/imgsettings/movieiso
+Label: Movie ISO Speed
+Type: RADIO
+Current: 4000
+Choice: 0 100
+Choice: 1 125
+Choice: 2 160
+Choice: 3 200
+Choice: 4 250
+Choice: 5 320
+Choice: 6 400
+Choice: 7 500
+Choice: 8 640
+Choice: 9 800
+Choice: 10 1000
+Choice: 11 1250
+Choice: 12 1600
+Choice: 13 2000
+Choice: 14 2500
+Choice: 15 3200
+Choice: 16 4000
+Choice: 17 5000
+Choice: 18 6400
+Choice: 19 8000
+Choice: 20 10000
+Choice: 21 12800
+Choice: 22 25600
+/main/imgsettings/whitebalance
+Label: Balance des blancs
+Type: RADIO
+Current: Automatique
+Choice: 0 Automatique
+Choice: 1 Lumière naturelle
+Choice: 2 Fluorescent
+Choice: 3 Tungstène
+Choice: 4 Flash
+Choice: 5 Nuageux
+Choice: 6 Ombre
+Choice: 7 Température de couleur
+Choice: 8 Préconfiguré
+/main/imgsettings/colorspace
+Label: Espace de couleur
+Type: RADIO
+Current: AdobeRVB
+Choice: 0 sRVB
+Choice: 1 AdobeRVB
+/main/imgsettings/autoiso
+Label: Automatique ISO
+Type: RADIO
+Current: Désactivé
+Choice: 0 Activé
+Choice: 1 Désactivé
+/main/capturesettings/minimumshutterspeed
+Label: Temps de pose minimal
+Type: RADIO
+Current: 1/15
+Choice: 0 1/2000
+Choice: 1 1/1600
+Choice: 2 1/1250
+Choice: 3 1/1000
+Choice: 4 1/800
+Choice: 5 1/640
+Choice: 6 1/500
+Choice: 7 1/400
+Choice: 8 1/320
+Choice: 9 1/250
+Choice: 10 1/200
+Choice: 11 1/160
+Choice: 12 1/125
+Choice: 13 1/100
+Choice: 14 1/80
+Choice: 15 1/60
+Choice: 16 1/50
+Choice: 17 1/40
+Choice: 18 1/30
+Choice: 19 1/15
+Choice: 20 1/8
+Choice: 21 1/4
+Choice: 22 1/2
+Choice: 23 1
+Choice: 24 Valeur 0018 inconnue
+Choice: 25 Valeur 0019 inconnue
+Choice: 26 Valeur 001a inconnue
+Choice: 27 Valeur 001b inconnue
+/main/capturesettings/isoautohilimit
+Label: Limite haute d'ISO automatique
+Type: RADIO
+Current: Valeur 0014 inconnue
+Choice: 0 400
+Choice: 1 800
+Choice: 2 1600
+Choice: 3 3200
+Choice: 4 Haut 1
+Choice: 5 Haut 2
+Choice: 6 Valeur 0006 inconnue
+Choice: 7 Valeur 0007 inconnue
+Choice: 8 Valeur 0008 inconnue
+Choice: 9 Valeur 0009 inconnue
+Choice: 10 Valeur 000a inconnue
+Choice: 11 Valeur 000b inconnue
+Choice: 12 Valeur 000c inconnue
+Choice: 13 Valeur 000d inconnue
+Choice: 14 Valeur 000e inconnue
+Choice: 15 Valeur 000f inconnue
+Choice: 16 Valeur 0010 inconnue
+Choice: 17 Valeur 0011 inconnue
+Choice: 18 Valeur 0012 inconnue
+Choice: 19 Valeur 0013 inconnue
+Choice: 20 Valeur 0014 inconnue
+Choice: 21 Valeur 0015 inconnue
+Choice: 22 Valeur 0016 inconnue
+Choice: 23 Valeur 0017 inconnue
+Choice: 24 Valeur 0018 inconnue
+Choice: 25 Valeur 0019 inconnue
+/main/capturesettings/dlighting
+Label: D-Lighting actif
+Type: RADIO
+Current: Automatique
+Choice: 0 Très élevé
+Choice: 1 Haute
+Choice: 2 Normal
+Choice: 3 Faible
+Choice: 4 Désactivé
+Choice: 5 Automatique
+/main/capturesettings/highisonr
+Label: Réduction du bruit pour grande ISO
+Type: RADIO
+Current: Normal
+Choice: 0 Désactivé
+Choice: 1 Faible
+Choice: 2 Normal
+Choice: 3 Haute
+/main/capturesettings/shootingspeed
+Label: Vitesse lente de prise de vue continue
+Type: RADIO
+Current: 1 fps
+Choice: 0 4 fps
+Choice: 1 3 fps
+Choice: 2 2 fps
+Choice: 3 1 fps
+Choice: 4 Valeur 0004 inconnue
+/main/capturesettings/maximumcontinousrelease
+Label: Maximum de relâchement continu
+Type: RANGE
+Current: 100
+Bottom: 1
+Top: 100
+Step: 1
+/main/capturesettings/moviequality
+Label: Qualité du film
+Type: RADIO
+Current: 640x424
+Choice: 0 320x216
+Choice: 1 640x424
+Choice: 2 1280x720
+Choice: 3 Valeur 0003 inconnue
+Choice: 4 Valeur 0004 inconnue
+Choice: 5 Valeur 0005 inconnue
+Choice: 6 Valeur 0006 inconnue
+/main/capturesettings/rawcompression
+Label: Compression brute
+Type: RADIO
+Current: Aucune perte de qualité
+Choice: 0 Aucune perte de qualité
+Choice: 1 Perte de qualité
+Choice: 2 Valeur 0002 inconnue
+/main/capturesettings/flashsyncspeed
+Label: Vitesse de synchronisation du flash
+Type: RADIO
+Current: 1/200 s
+Choice: 0 1/250 s (synchronisation ultrarapide automatique)
+Choice: 1 1/250 s
+Choice: 2 1/200 s
+Choice: 3 1/160 s
+Choice: 4 1/125 s
+Choice: 5 1/100 s
+Choice: 6 1/80 s
+Choice: 7 1/60 s
+Choice: 8 Valeur 0008 inconnue
+/main/capturesettings/flashshutterspeed
+Label: Temps de pose avec flash
+Type: RADIO
+Current: 1/60 s
+Choice: 0 1/60 s
+Choice: 1 1/30 s
+Choice: 2 1/15 s
+Choice: 3 1/8 s
+Choice: 4 1/4 s
+Choice: 5 1/2 s
+Choice: 6 1 s
+Choice: 7 2 s
+Choice: 8 4 s
+Choice: 9 8 s
+Choice: 10 15 s
+Choice: 11 30 s
+/main/capturesettings/longexpnr
+Label: Réduction du bruit pour l'exposition longue
+Type: RADIO
+Current: Activé
+Choice: 0 Activé
+Choice: 1 Désactivé
+/main/capturesettings/assistlight
+Label: Éclairage d'assistance
+Type: RADIO
+Current: Désactivé
+Choice: 0 Activé
+Choice: 1 Désactivé
+/main/capturesettings/exposurecompensation
+Label: Correction d'exposition
+Type: RADIO
+Current: 0
+Choice: 0 -5
+Choice: 1 -4,666
+Choice: 2 -4,333
+Choice: 3 -4
+Choice: 4 -3,666
+Choice: 5 -3,333
+Choice: 6 -3
+Choice: 7 -2,666
+Choice: 8 -2,333
+Choice: 9 -2
+Choice: 10 -1,666
+Choice: 11 -1,333
+Choice: 12 -1
+Choice: 13 -0,666
+Choice: 14 -0,333
+Choice: 15 0
+Choice: 16 0,333
+Choice: 17 0,666
+Choice: 18 1
+Choice: 19 1,333
+Choice: 20 1,666
+Choice: 21 2
+Choice: 22 2,333
+Choice: 23 2,666
+Choice: 24 3
+Choice: 25 3,333
+Choice: 26 3,666
+Choice: 27 4
+Choice: 28 4,333
+Choice: 29 4,666
+Choice: 30 5
+/main/capturesettings/flashmode
+Label: Mode de flash
+Type: RADIO
+Current: Automatique
+Choice: 0 Dispositif anti yeux rouges automatique
+Choice: 1 Automatique
+Choice: 2 Synchronisation au deuxième rideau et synchronisation lente
+/main/capturesettings/nikonflashmode
+Label: Mode de flash Nikon
+Type: RADIO
+Current: Manuel
+Choice: 0 iTTL
+Choice: 1 Manuel
+Choice: 2 Commande
+Choice: 3 Stroboscopique
+/main/capturesettings/f-number
+Label: Valeur d'ouverture du diaphragme
+Type: RADIO
+Current: f/5,6
+Choice: 0 f/2,8
+Choice: 1 f/3,2
+Choice: 2 f/3,5
+Choice: 3 f/4
+Choice: 4 f/4,5
+Choice: 5 f/5
+Choice: 6 f/5,6
+Choice: 7 f/6,3
+Choice: 8 f/7,1
+Choice: 9 f/8
+Choice: 10 f/9
+Choice: 11 f/10
+Choice: 12 f/11
+Choice: 13 f/13
+Choice: 14 f/14
+Choice: 15 f/16
+Choice: 16 f/18
+Choice: 17 f/20
+Choice: 18 f/22
+/main/capturesettings/movief-number
+Label: Movie F-Number
+Type: RADIO
+Current: f/2,8
+Choice: 0 f/2,8
+Choice: 1 f/3,2
+Choice: 2 f/3,5
+Choice: 3 f/4
+Choice: 4 f/4,5
+Choice: 5 f/5
+Choice: 6 f/5,6
+Choice: 7 f/6,3
+Choice: 8 f/7,1
+Choice: 9 f/8
+Choice: 10 f/9
+Choice: 11 f/10
+Choice: 12 f/11
+Choice: 13 f/13
+Choice: 14 f/14
+Choice: 15 f/16
+Choice: 16 f/18
+Choice: 17 f/20
+Choice: 18 f/22
+/main/capturesettings/flexibleprogram
+Label: Programme flexible
+Type: RANGE
+Current: 0
+Bottom: -30
+Top: 30
+Step: 2
+/main/capturesettings/imagequality
+Label: Qualité d'image
+Type: RADIO
+Current: NEF (brut)
+Choice: 0 JPEG de base
+Choice: 1 JPEG normal
+Choice: 2 JPEG fin
+Choice: 3 Valeur 0003 inconnue
+Choice: 4 NEF (brut)
+Choice: 5 NEF et de base
+Choice: 6 NEF et normal
+Choice: 7 NEF et fin
+/main/capturesettings/focallength
+Label: Distance focale
+Type: RANGE
+Current: 24
+Bottom: 24
+Top: 70
+Step: 0,01
+/main/capturesettings/focusmode
+Label: Mode de mise au point
+Type: RADIO
+Current: AF-S
+Choice: 0 Manuel
+Choice: 1 AF-S
+Choice: 2 AF-C
+Choice: 3 Valeur 8013 inconnue
+/main/capturesettings/focusmode2
+Label: Mode de mise au point 2
+Type: RADIO
+Current: AF-S
+Choice: 0 AF-S
+Choice: 1 AF-C
+Choice: 2 AF-A
+Choice: 3 MF (fixe)
+Choice: 4 MF (sélection)
+/main/capturesettings/expprogram
+Label: Programme d'exposition
+Type: RADIO
+Current: M
+Choice: 0 M
+Choice: 1 P
+Choice: 2 A
+Choice: 3 S
+/main/capturesettings/hdrhighdynamic
+Label: Grande gamme dynamique (HDR)
+Type: RADIO
+Current: Automatique
+Choice: 0 Automatique
+Choice: 1 1 EV
+Choice: 2 2 EV
+Choice: 3 3 EV
+/main/capturesettings/hdrsmoothing
+Label: Lissage de grande gamme dynamique (HDR)
+Type: RADIO
+Current: Normal
+Choice: 0 Haute
+Choice: 1 Normal
+Choice: 2 Faible
+/main/capturesettings/capturemode
+Label: Mode d’acquisition de cliché
+Type: RADIO
+Current: Un seul coup
+Choice: 0 Un seul coup
+Choice: 1 Rafale
+Choice: 2 Continu à vitesse lente
+Choice: 3 Retardateur
+Choice: 4 Miroir relevé
+Choice: 5 Relâchement silencieux
+/main/capturesettings/focusmetermode
+Label: Mode de mesure de mise au point
+Type: RADIO
+Current: Une seule zone
+Choice: 0 Plusieurs points
+Choice: 1 Une seule zone
+Choice: 2 Sujet le plus proche
+Choice: 3 Groupe dynamique
+Choice: 4 Valeur 8013 inconnue
+Choice: 5 Valeur 8014 inconnue
+/main/capturesettings/exposuremetermode
+Label: Mode de mesure de l'exposition
+Type: RADIO
+Current: Plusieurs points
+Choice: 0 Pondérée centré
+Choice: 1 Plusieurs points
+Choice: 2 Point central
+/main/capturesettings/shutterspeed
+Label: Temps de pose
+Type: RADIO
+Current: 0,0333 s
+Choice: 0 0,0001 s
+Choice: 1 0,0002 s
+Choice: 2 0,0003 s
+Choice: 3 0,0004 s
+Choice: 4 0,0005 s
+Choice: 5 0,0006 s
+Choice: 6 0,0008 s
+Choice: 7 0,0010 s
+Choice: 8 0,0012 s
+Choice: 9 0,0015 s
+Choice: 10 0,0020 s
+Choice: 11 0,0025 s
+Choice: 12 0,0031 s
+Choice: 13 0,0040 s
+Choice: 14 0,0050 s
+Choice: 15 0,0062 s
+Choice: 16 0,0080 s
+Choice: 17 0,0100 s
+Choice: 18 0,0125 s
+Choice: 19 0,0166 s
+Choice: 20 0,0200 s
+Choice: 21 0,0250 s
+Choice: 22 0,0333 s
+Choice: 23 0,0400 s
+Choice: 24 0,0500 s
+Choice: 25 0,0666 s
+Choice: 26 0,0769 s
+Choice: 27 0,1000 s
+Choice: 28 0,1250 s
+Choice: 29 0,1666 s
+Choice: 30 0,2000 s
+Choice: 31 0,2500 s
+Choice: 32 0,3333 s
+Choice: 33 0,4000 s
+Choice: 34 0,5000 s
+Choice: 35 0,6250 s
+Choice: 36 0,7692 s
+Choice: 37 1,0000 s
+Choice: 38 1,3000 s
+Choice: 39 1,6000 s
+Choice: 40 2,0000 s
+Choice: 41 2,5000 s
+Choice: 42 3,0000 s
+Choice: 43 4,0000 s
+Choice: 44 5,0000 s
+Choice: 45 6,0000 s
+Choice: 46 8,0000 s
+Choice: 47 10,0000 s
+Choice: 48 13,0000 s
+Choice: 49 15,0000 s
+Choice: 50 20,0000 s
+Choice: 51 25,0000 s
+Choice: 52 30,0000 s
+Choice: 53 Pose longue
+/main/capturesettings/shutterspeed2
+Label: Temps de pose 2
+Type: RADIO
+Current: 1/30
+Choice: 0 1/8000
+Choice: 1 1/6400
+Choice: 2 1/5000
+Choice: 3 1/4000
+Choice: 4 1/3200
+Choice: 5 1/2500
+Choice: 6 1/2000
+Choice: 7 1/1600
+Choice: 8 1/1250
+Choice: 9 1/1000
+Choice: 10 1/800
+Choice: 11 1/640
+Choice: 12 1/500
+Choice: 13 1/400
+Choice: 14 1/320
+Choice: 15 1/250
+Choice: 16 1/200
+Choice: 17 1/160
+Choice: 18 1/125
+Choice: 19 1/100
+Choice: 20 1/80
+Choice: 21 1/60
+Choice: 22 1/50
+Choice: 23 1/40
+Choice: 24 1/30
+Choice: 25 1/25
+Choice: 26 1/20
+Choice: 27 1/15
+Choice: 28 1/13
+Choice: 29 1/10
+Choice: 30 1/8
+Choice: 31 1/6
+Choice: 32 1/5
+Choice: 33 1/4
+Choice: 34 1/3
+Choice: 35 10/25
+Choice: 36 1/2
+Choice: 37 10/16
+Choice: 38 10/13
+Choice: 39 1
+Choice: 40 13/10
+Choice: 41 16/10
+Choice: 42 2
+Choice: 43 25/10
+Choice: 44 3
+Choice: 45 4
+Choice: 46 5
+Choice: 47 6
+Choice: 48 8
+Choice: 49 10
+Choice: 50 13
+Choice: 51 15
+Choice: 52 20
+Choice: 53 25
+Choice: 54 30
+Choice: 55 x 200
+Choice: 56 Pose longue
+/main/capturesettings/movieshutterspeed
+Label: Movie Shutter Speed 2
+Type: RADIO
+Current: 1/25
+Choice: 0 1/8000
+Choice: 1 1/6400
+Choice: 2 1/5000
+Choice: 3 1/4000
+Choice: 4 1/3200
+Choice: 5 1/2500
+Choice: 6 1/2000
+Choice: 7 1/1600
+Choice: 8 1/1250
+Choice: 9 1/1000
+Choice: 10 1/800
+Choice: 11 1/640
+Choice: 12 1/500
+Choice: 13 1/400
+Choice: 14 1/320
+Choice: 15 1/250
+Choice: 16 1/200
+Choice: 17 1/160
+Choice: 18 1/125
+Choice: 19 1/100
+Choice: 20 1/80
+Choice: 21 1/60
+Choice: 22 1/50
+Choice: 23 1/40
+Choice: 24 1/30
+Choice: 25 1/25
+/main/capturesettings/focusareawrap
+Label: Collimateur de zone de mise au point
+Type: RADIO
+Current: Désactivé
+Choice: 0 Activé
+Choice: 1 Désactivé
+/main/capturesettings/exposuredelaymode
+Label: Mode de temporisation d'exposition
+Type: RADIO
+Current: Activé
+Choice: 0 Activé
+Choice: 1 Désactivé
+/main/capturesettings/liveviewaffocus
+Label: Mise au point automatique en mode de visée par l’écran
+Type: RADIO
+Current: Mise au point automatique avec un seul servo
+Choice: 0 Mise au point automatique avec un seul servo
+Choice: 1 Mise au point automatique avec servo à plein temps
+Choice: 2 Valeur 0003 inconnue
+Choice: 3 Mise au point manuelle
+/main/capturesettings/filenrsequencing
+Label: Numéro de fichier séquencé
+Type: RADIO
+Current: Activé
+Choice: 0 Activé
+Choice: 1 Désactivé
+/main/capturesettings/imagerotationflag
+Label: Attribut de rotation de l'image
+Type: RADIO
+Current: Désactivé
+Choice: 0 Activé
+Choice: 1 Désactivé
+/main/capturesettings/nocfcardrelease
+Label: Débloquer sans la carte CompactFlash
+Type: RADIO
+Current: Désactivé
+Choice: 0 Activé
+Choice: 1 Désactivé
+/main/capturesettings/autofocusarea
+Label: Zone de mise au point automatique
+Type: RADIO
+Current: Valeur 000e inconnue
+Choice: 0 Haut
+Choice: 1 Bas
+Choice: 2 Gauche
+Choice: 3 Droite
+Choice: 4 Valeur 0005 inconnue
+Choice: 5 Valeur 0006 inconnue
+Choice: 6 Valeur 0007 inconnue
+Choice: 7 Valeur 0008 inconnue
+Choice: 8 Valeur 0009 inconnue
+Choice: 9 Valeur 000a inconnue
+Choice: 10 Valeur 000b inconnue
+Choice: 11 Valeur 000c inconnue
+Choice: 12 Valeur 000d inconnue
+Choice: 13 Valeur 000e inconnue
+Choice: 14 Valeur 000f inconnue
+Choice: 15 Valeur 0010 inconnue
+Choice: 16 Valeur 0011 inconnue
+Choice: 17 Valeur 0012 inconnue
+Choice: 18 Valeur 0013 inconnue
+Choice: 19 Valeur 0014 inconnue
+Choice: 20 Valeur 0015 inconnue
+Choice: 21 Valeur 0016 inconnue
+Choice: 22 Valeur 0017 inconnue
+Choice: 23 Valeur 0018 inconnue
+Choice: 24 Valeur 0019 inconnue
+Choice: 25 Valeur 001a inconnue
+Choice: 26 Valeur 001b inconnue
+Choice: 27 Valeur 001c inconnue
+Choice: 28 Valeur 001d inconnue
+Choice: 29 Valeur 001e inconnue
+Choice: 30 Valeur 001f inconnue
+Choice: 31 Valeur 0020 inconnue
+Choice: 32 Valeur 0021 inconnue
+Choice: 33 Valeur 0022 inconnue
+Choice: 34 Valeur 0023 inconnue
+Choice: 35 Valeur 0024 inconnue
+Choice: 36 Valeur 0025 inconnue
+Choice: 37 Valeur 0026 inconnue
+Choice: 38 Valeur 0027 inconnue
+Choice: 39 Valeur 0028 inconnue
+Choice: 40 Valeur 0029 inconnue
+Choice: 41 Valeur 002a inconnue
+Choice: 42 Valeur 002b inconnue
+Choice: 43 Valeur 002c inconnue
+Choice: 44 Valeur 002d inconnue
+Choice: 45 Valeur 002e inconnue
+Choice: 46 Valeur 002f inconnue
+Choice: 47 Valeur 0030 inconnue
+Choice: 48 Valeur 0031 inconnue
+Choice: 49 Valeur 0032 inconnue
+Choice: 50 Valeur 0033 inconnue
+/main/capturesettings/flashexposurecompensation
+Label: Correction d'exposition par le flash
+Type: RANGE
+Current: 0
+Bottom: -3
+Top: 1
+Step: 0,333333
+/main/capturesettings/bracketing
+Label: Bracketing
+Type: RADIO
+Current: Désactivé
+Choice: 0 Activé
+Choice: 1 Désactivé
+/main/capturesettings/bracketmode
+Label: Bracketing
+Type: RADIO
+Current: Flash/vitesse
+Choice: 0 Flash/vitesse
+Choice: 1 Flash/vitesse/ouverture
+Choice: 2 Flash/ouverture
+Choice: 3 Flash uniquement
+/main/capturesettings/evstep
+Label: Palier de valeur d'exposition
+Type: RADIO
+Current: 1/3
+Choice: 0 1/3
+Choice: 1 1/2
+Choice: 2 Valeur 0002 inconnue
+/main/capturesettings/bracketset
+Label: Bracket défini
+Type: RADIO
+Current: Exposition automatique et flash
+Choice: 0 Exposition automatique et flash
+Choice: 1 Exposition automatique uniquement
+Choice: 2 Flash uniquement
+Choice: 3 Balance des blancs du bracketing
+Choice: 4 D-Lighting actif (ADL) du bracketing
+/main/capturesettings/bracketorder
+Label: Ordre de bracket
+Type: RADIO
+Current: MTR > au-dessous
+Choice: 0 MTR > au-dessous
+Choice: 1 Au-dessous > MTR
+/main/capturesettings/burstnumber
+Label: Nombre d'images en rafale
+Type: RANGE
+Current: 1
+Bottom: 1
+Top: 100
+Step: 1
+/main/capturesettings/maximumshots
+Label: Prise de vue maximum 
+Type: TEXT
+Current: 11
+/main/capturesettings/autowhitebias
+Label: Balance des blancs automatique
+Type: RANGE
+Current: 84
+Bottom: 0
+Top: 168
+Step: 1
+/main/capturesettings/tungstenwhitebias
+Label: Balance des blancs tungstène
+Type: RANGE
+Current: 84
+Bottom: 0
+Top: 168
+Step: 1
+/main/capturesettings/flourescentwhitebias
+Label: Balance des blancs fluorescent
+Type: RANGE
+Current: 84
+Bottom: 0
+Top: 168
+Step: 1
+/main/capturesettings/daylightwhitebias
+Label: Balance des blancs ensoleillé
+Type: RANGE
+Current: 84
+Bottom: 0
+Top: 168
+Step: 1
+/main/capturesettings/flashwhitebias
+Label: Balance des blancs flash
+Type: RANGE
+Current: 84
+Bottom: 0
+Top: 168
+Step: 1
+/main/capturesettings/cloudywhitebias
+Label: Balance des blancs nuageux
+Type: RANGE
+Current: 84
+Bottom: 0
+Top: 168
+Step: 1
+/main/capturesettings/shadewhitebias
+Label: Balance des blancs ombre
+Type: RANGE
+Current: 84
+Bottom: 0
+Top: 168
+Step: 1
+/main/capturesettings/whitebiaspresetno
+Label: Nombre de Balance des blancs pré-configuré
+Type: RADIO
+Current: 1
+Choice: 0 1
+Choice: 1 2
+Choice: 2 3
+/main/capturesettings/whitebiaspreset1
+Label: Balance des blancs pré-configuré 1
+Type: TEXT
+Current: 26739113
+/main/capturesettings/whitebiaspreset2
+Label: Balance des blancs pré-configuré 2
+Type: TEXT
+Current: 19202686
+/main/capturesettings/whitebiaspreset3
+Label: Balance des blancs pré-configuré 3
+Type: TEXT
+Current: 36962636
+/main/capturesettings/whitebiaspreset4
+Label: Balance des blancs pré-configuré 4
+Type: TEXT
+Current: 32506200
+/main/capturesettings/centerweightsize
+Label: Zone pondérée centrale
+Type: RADIO
+Current: 8 mm
+Choice: 0 6 mm
+Choice: 1 8 mm
+Choice: 2 10 mm
+Choice: 3 12 mm
+Choice: 4 Moyenne
+/main/capturesettings/applicationmode
+Label: Mode d’application
+Type: RADIO
+Current: Mode d’application 0
+Choice: 0 Mode d’application 0
+Choice: 1 Mode d’application 1
+/main/capturesettings/microphone
+Label: Microphone
+Type: RADIO
+Current: Sensibilité automatique
+Choice: 0 Sensibilité automatique
+Choice: 1 Sensibilité élevée
+Choice: 2 Sensibilité moyenne
+Choice: 3 Sensibilité basse
+Choice: 4 Microphone désactivé
+Choice: 5 Valeur 0005 inconnue
+/main/capturesettings/autodistortioncontrol
+Label: Contrôle de distorsion automatique
+Type: RADIO
+Current: Désactivé
+Choice: 0 Activé
+Choice: 1 Désactivé
+/main/other/5001
+Label: Niveau de batterie
+Type: MENU
+Current: 100
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+Choice: 6 6
+Choice: 7 7
+Choice: 8 8
+Choice: 9 9
+Choice: 10 10
+Choice: 11 11
+Choice: 12 12
+Choice: 13 13
+Choice: 14 14
+Choice: 15 15
+Choice: 16 16
+Choice: 17 17
+Choice: 18 18
+Choice: 19 19
+Choice: 20 20
+Choice: 21 21
+Choice: 22 22
+Choice: 23 23
+Choice: 24 24
+Choice: 25 25
+Choice: 26 26
+Choice: 27 27
+Choice: 28 28
+Choice: 29 29
+Choice: 30 30
+Choice: 31 31
+Choice: 32 32
+Choice: 33 33
+Choice: 34 34
+Choice: 35 35
+Choice: 36 36
+Choice: 37 37
+Choice: 38 38
+Choice: 39 39
+Choice: 40 40
+Choice: 41 41
+Choice: 42 42
+Choice: 43 43
+Choice: 44 44
+Choice: 45 45
+Choice: 46 46
+Choice: 47 47
+Choice: 48 48
+Choice: 49 49
+Choice: 50 50
+Choice: 51 51
+Choice: 52 52
+Choice: 53 53
+Choice: 54 54
+Choice: 55 55
+Choice: 56 56
+Choice: 57 57
+Choice: 58 58
+Choice: 59 59
+Choice: 60 60
+Choice: 61 61
+Choice: 62 62
+Choice: 63 63
+Choice: 64 64
+Choice: 65 65
+Choice: 66 66
+Choice: 67 67
+Choice: 68 68
+Choice: 69 69
+Choice: 70 70
+Choice: 71 71
+Choice: 72 72
+Choice: 73 73
+Choice: 74 74
+Choice: 75 75
+Choice: 76 76
+Choice: 77 77
+Choice: 78 78
+Choice: 79 79
+Choice: 80 80
+Choice: 81 81
+Choice: 82 82
+Choice: 83 83
+Choice: 84 84
+Choice: 85 85
+Choice: 86 86
+Choice: 87 87
+Choice: 88 88
+Choice: 89 89
+Choice: 90 90
+Choice: 91 91
+Choice: 92 92
+Choice: 93 93
+Choice: 94 94
+Choice: 95 95
+Choice: 96 96
+Choice: 97 97
+Choice: 98 98
+Choice: 99 99
+Choice: 100 100
+/main/other/5003
+Label: Taille d'image
+Type: MENU
+Current: 7360x4912
+Choice: 0 7360x4912
+Choice: 1 5520x3680
+/main/other/5004
+Label: Paramètre de compression
+Type: MENU
+Current: 4
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+Choice: 6 6
+Choice: 7 7
+/main/other/5005
+Label: Balance des blancs
+Type: MENU
+Current: 2
+Choice: 0 2
+Choice: 1 4
+Choice: 2 5
+Choice: 3 6
+Choice: 4 7
+Choice: 5 32784
+Choice: 6 32785
+Choice: 7 32786
+Choice: 8 32787
+/main/other/5007
+Label: Valeur d'ouverture du diaphragme
+Type: MENU
+Current: 560
+Choice: 0 280
+Choice: 1 320
+Choice: 2 350
+Choice: 3 400
+Choice: 4 450
+Choice: 5 500
+Choice: 6 560
+Choice: 7 630
+Choice: 8 710
+Choice: 9 800
+Choice: 10 900
+Choice: 11 1000
+Choice: 12 1100
+Choice: 13 1300
+Choice: 14 1400
+Choice: 15 1600
+Choice: 16 1800
+Choice: 17 2000
+Choice: 18 2200
+/main/other/5008
+Label: Distance focale
+Type: RANGE
+Current: 2400
+Bottom: 2400
+Top: 7000
+Step: 1
+/main/other/500a
+Label: Mode de mise au point
+Type: MENU
+Current: 32784
+Choice: 0 1
+Choice: 1 32784
+Choice: 2 32785
+Choice: 3 32787
+/main/other/500b
+Label: Mode de mesure de l'exposition
+Type: MENU
+Current: 3
+Choice: 0 2
+Choice: 1 3
+Choice: 2 4
+/main/other/500c
+Label: Mode de flash
+Type: MENU
+Current: 32784
+Choice: 0 4
+Choice: 1 32784
+Choice: 2 32786
+/main/other/500d
+Label: Temps de pose
+Type: MENU
+Current: 333
+Choice: 0 1
+Choice: 1 2
+Choice: 2 3
+Choice: 3 4
+Choice: 4 5
+Choice: 5 6
+Choice: 6 8
+Choice: 7 10
+Choice: 8 12
+Choice: 9 15
+Choice: 10 20
+Choice: 11 25
+Choice: 12 31
+Choice: 13 40
+Choice: 14 50
+Choice: 15 62
+Choice: 16 80
+Choice: 17 100
+Choice: 18 125
+Choice: 19 166
+Choice: 20 200
+Choice: 21 250
+Choice: 22 333
+Choice: 23 400
+Choice: 24 500
+Choice: 25 666
+Choice: 26 769
+Choice: 27 1000
+Choice: 28 1250
+Choice: 29 1666
+Choice: 30 2000
+Choice: 31 2500
+Choice: 32 3333
+Choice: 33 4000
+Choice: 34 5000
+Choice: 35 6250
+Choice: 36 7692
+Choice: 37 10000
+Choice: 38 13000
+Choice: 39 16000
+Choice: 40 20000
+Choice: 41 25000
+Choice: 42 30000
+Choice: 43 40000
+Choice: 44 50000
+Choice: 45 60000
+Choice: 46 80000
+Choice: 47 100000
+Choice: 48 130000
+Choice: 49 150000
+Choice: 50 200000
+Choice: 51 250000
+Choice: 52 300000
+Choice: 53 -1
+/main/other/500e
+Label: Mode d’exposition programmé 
+Type: MENU
+Current: 1
+Choice: 0 1
+Choice: 1 2
+Choice: 2 3
+Choice: 3 4
+/main/other/500f
+Label: Indice d’exposition (vitesse ISO du film)
+Type: MENU
+Current: 1000
+Choice: 0 50
+Choice: 1 64
+Choice: 2 80
+Choice: 3 100
+Choice: 4 125
+Choice: 5 160
+Choice: 6 200
+Choice: 7 250
+Choice: 8 320
+Choice: 9 400
+Choice: 10 500
+Choice: 11 640
+Choice: 12 800
+Choice: 13 1000
+Choice: 14 1250
+Choice: 15 1600
+Choice: 16 2000
+Choice: 17 2500
+Choice: 18 3200
+Choice: 19 4000
+Choice: 20 5000
+Choice: 21 6400
+Choice: 22 8000
+Choice: 23 10000
+Choice: 24 12800
+Choice: 25 25600
+/main/other/5010
+Label: Correction d’exposition de balance des blancs
+Type: MENU
+Current: 0
+Choice: 0 -5000
+Choice: 1 -4666
+Choice: 2 -4333
+Choice: 3 -4000
+Choice: 4 -3666
+Choice: 5 -3333
+Choice: 6 -3000
+Choice: 7 -2666
+Choice: 8 -2333
+Choice: 9 -2000
+Choice: 10 -1666
+Choice: 11 -1333
+Choice: 12 -1000
+Choice: 13 -666
+Choice: 14 -333
+Choice: 15 0
+Choice: 16 333
+Choice: 17 666
+Choice: 18 1000
+Choice: 19 1333
+Choice: 20 1666
+Choice: 21 2000
+Choice: 22 2333
+Choice: 23 2666
+Choice: 24 3000
+Choice: 25 3333
+Choice: 26 3666
+Choice: 27 4000
+Choice: 28 4333
+Choice: 29 4666
+Choice: 30 5000
+/main/other/5011
+Label: Date et heure
+Type: TEXT
+Current: 20160821T210948
+/main/other/5013
+Label: Mode d’acquisition de cliché
+Type: MENU
+Current: 1
+Choice: 0 1
+Choice: 1 2
+Choice: 2 32784
+Choice: 3 32785
+Choice: 4 32786
+Choice: 5 32790
+/main/other/5018
+Label: Nombre d'images en rafale
+Type: MENU
+Current: 1
+Choice: 0 1
+Choice: 1 2
+Choice: 2 3
+Choice: 3 4
+Choice: 4 5
+Choice: 5 6
+Choice: 6 7
+Choice: 7 8
+Choice: 8 9
+Choice: 9 10
+Choice: 10 11
+Choice: 11 12
+Choice: 12 13
+Choice: 13 14
+Choice: 14 15
+Choice: 15 16
+Choice: 16 17
+Choice: 17 18
+Choice: 18 19
+Choice: 19 20
+Choice: 20 21
+Choice: 21 22
+Choice: 22 23
+Choice: 23 24
+Choice: 24 25
+Choice: 25 26
+Choice: 26 27
+Choice: 27 28
+Choice: 28 29
+Choice: 29 30
+Choice: 30 31
+Choice: 31 32
+Choice: 32 33
+Choice: 33 34
+Choice: 34 35
+Choice: 35 36
+Choice: 36 37
+Choice: 37 38
+Choice: 38 39
+Choice: 39 40
+Choice: 40 41
+Choice: 41 42
+Choice: 42 43
+Choice: 43 44
+Choice: 44 45
+Choice: 45 46
+Choice: 46 47
+Choice: 47 48
+Choice: 48 49
+Choice: 49 50
+Choice: 50 51
+Choice: 51 52
+Choice: 52 53
+Choice: 53 54
+Choice: 54 55
+Choice: 55 56
+Choice: 56 57
+Choice: 57 58
+Choice: 58 59
+Choice: 59 60
+Choice: 60 61
+Choice: 61 62
+Choice: 62 63
+Choice: 63 64
+Choice: 64 65
+Choice: 65 66
+Choice: 66 67
+Choice: 67 68
+Choice: 68 69
+Choice: 69 70
+Choice: 70 71
+Choice: 71 72
+Choice: 72 73
+Choice: 73 74
+Choice: 74 75
+Choice: 75 76
+Choice: 76 77
+Choice: 77 78
+Choice: 78 79
+Choice: 79 80
+Choice: 80 81
+Choice: 81 82
+Choice: 82 83
+Choice: 83 84
+Choice: 84 85
+Choice: 85 86
+Choice: 86 87
+Choice: 87 88
+Choice: 88 89
+Choice: 89 90
+Choice: 90 91
+Choice: 91 92
+Choice: 92 93
+Choice: 93 94
+Choice: 94 95
+Choice: 95 96
+Choice: 96 97
+Choice: 97 98
+Choice: 98 99
+Choice: 99 100
+/main/other/501c
+Label: Mode de mesure de mise au point
+Type: MENU
+Current: 32784
+Choice: 0 2
+Choice: 1 32784
+Choice: 2 32785
+Choice: 3 32786
+Choice: 4 32787
+Choice: 5 32788
+/main/other/501e
+Label: Artiste
+Type: TEXT
+Current: (null)
+/main/other/501f
+Label: Droit d'auteur
+Type: TEXT
+Current: (null)
+/main/other/d303
+Label: PTP Property 0xd303
+Type: TEXT
+Current: 1
+/main/other/d406
+Label: PTP Property 0xd406
+Type: TEXT
+Current: Windows/6.0.5330.0 MTPClassDriver/6.0.5330.0
+/main/other/d407
+Label: PTP Property 0xd407
+Type: TEXT
+Current: 1
+/main/other/d010
+Label: Prise de vue personnalisée
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+/main/other/d011
+Label: Nom de prise de vue personnalisée A
+Type: TEXT
+Current:                     
+/main/other/d012
+Label: Nom de prise de vue personnalisée B
+Type: TEXT
+Current:                     
+/main/other/d013
+Label: Nom de prise de vue personnalisée C
+Type: TEXT
+Current:                     
+/main/other/d014
+Label: Nom de prise de vue personnalisée D
+Type: TEXT
+Current:                     
+/main/other/d015
+Label: Réinitialiser la personnalisation 0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+/main/other/d016
+Label: Compression brute
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+/main/other/d017
+Label: Balance des blancs automatique
+Type: RANGE
+Current: 84
+Bottom: 0
+Top: 168
+Step: 1
+/main/other/d018
+Label: Balance des blancs tungstène
+Type: RANGE
+Current: 84
+Bottom: 0
+Top: 168
+Step: 1
+/main/other/d019
+Label: Balance des blancs fluorescent
+Type: RANGE
+Current: 84
+Bottom: 0
+Top: 168
+Step: 1
+/main/other/d01a
+Label: Balance des blancs ensoleillé
+Type: RANGE
+Current: 84
+Bottom: 0
+Top: 168
+Step: 1
+/main/other/d01b
+Label: Balance des blancs flash
+Type: RANGE
+Current: 84
+Bottom: 0
+Top: 168
+Step: 1
+/main/other/d01c
+Label: Balance des blancs nuageux
+Type: RANGE
+Current: 84
+Bottom: 0
+Top: 168
+Step: 1
+/main/other/d01d
+Label: Balance des blancs ombre
+Type: RANGE
+Current: 84
+Bottom: 0
+Top: 168
+Step: 1
+/main/other/d01e
+Label: Température de couleur de balance des blancs
+Type: RANGE
+Current: 5000
+Bottom: 2500
+Top: 10000
+Step: 10
+/main/other/d01f
+Label: Numéro de préconfiguration de balance des blancs
+Type: MENU
+Current: 1
+Choice: 0 1
+Choice: 1 2
+Choice: 2 3
+Choice: 3 4
+/main/other/d021
+Label: Nom 1 de préconfiguration de balance des blancs
+Type: TEXT
+Current:                                     
+/main/other/d022
+Label: Nom 2 de préconfiguration de balance des blancs
+Type: TEXT
+Current:                                     
+/main/other/d023
+Label: Nom 3 de préconfiguration de balance des blancs
+Type: TEXT
+Current:                                     
+/main/other/d024
+Label: Nom 4 de préconfiguration de balance des blancs
+Type: TEXT
+Current:                                     
+/main/other/d026
+Label: Valeur 1 de préconfiguration de balance des blancs
+Type: TEXT
+Current: 26739113
+/main/other/d027
+Label: Valeur 2 de préconfiguration de balance des blancs
+Type: TEXT
+Current: 19202686
+/main/other/d028
+Label: Valeur 3 de préconfiguration de balance des blancs
+Type: TEXT
+Current: 36962636
+/main/other/d029
+Label: Valeur 4 de préconfiguration de balance des blancs
+Type: TEXT
+Current: 32506200
+/main/other/d02e
+Label: Distance focale de l'objectif (non CPU)
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+Choice: 6 6
+Choice: 7 7
+Choice: 8 8
+Choice: 9 9
+Choice: 10 10
+Choice: 11 11
+Choice: 12 12
+Choice: 13 13
+Choice: 14 14
+Choice: 15 15
+Choice: 16 16
+Choice: 17 17
+Choice: 18 18
+Choice: 19 19
+Choice: 20 20
+Choice: 21 21
+Choice: 22 22
+Choice: 23 23
+Choice: 24 24
+Choice: 25 25
+Choice: 26 26
+Choice: 27 27
+Choice: 28 28
+Choice: 29 29
+Choice: 30 30
+Choice: 31 31
+Choice: 32 32
+Choice: 33 33
+Choice: 34 34
+Choice: 35 35
+Choice: 36 36
+Choice: 37 37
+Choice: 38 38
+Choice: 39 39
+Choice: 40 40
+/main/other/d02f
+Label: Ouverture relative au maximum de l'objectif (non CPU)
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+Choice: 6 6
+Choice: 7 7
+Choice: 8 8
+Choice: 9 9
+Choice: 10 10
+Choice: 11 11
+Choice: 12 12
+Choice: 13 13
+Choice: 14 14
+Choice: 15 15
+Choice: 16 16
+Choice: 17 17
+Choice: 18 18
+Choice: 19 19
+Choice: 20 20
+Choice: 21 21
+Choice: 22 22
+/main/other/d030
+Label: Mode de prise de vue
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+/main/other/d031
+Label: politique de compression JPEG
+Type: MENU
+Current: 1
+Choice: 0 0
+Choice: 1 1
+/main/other/d032
+Label: Espace de couleur
+Type: MENU
+Current: 1
+Choice: 0 0
+Choice: 1 1
+/main/other/d033
+Label: DX automatiquement rogné
+Type: MENU
+Current: 1
+Choice: 0 0
+Choice: 1 1
+/main/other/d040
+Label: PTP_DPC_NIKON_CSMMenuBankSelect
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+/main/other/d041
+Label: Nom de menu personnalisé A
+Type: TEXT
+Current:                     
+/main/other/d042
+Label: Nom de menu personnalisé B
+Type: TEXT
+Current:                     
+/main/other/d043
+Label: Nom de menu personnalisé C
+Type: TEXT
+Current:                     
+/main/other/d044
+Label: Nom de menu personnalisé D
+Type: TEXT
+Current:                     
+/main/other/d045
+Label: Réinitialiser le menu personnalisé
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+/main/other/d048
+Label: PTP_DPC_NIKON_A1AFCModePriority
+Type: MENU
+Current: 1
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+/main/other/d049
+Label: PTP_DPC_NIKON_A2AFSModePriority
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+/main/other/d04f
+Label: Collimateur de zone de mise au point
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+/main/other/d051
+Label: Verrouillage de mise au point automatique activé
+Type: MENU
+Current: 2
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+/main/other/d053
+Label: Activer les droits d'auteur
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+/main/other/d054
+Label: Automatique ISO
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+/main/other/d055
+Label: Palier d'exposition ISO
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+/main/other/d056
+Label: Palier d'exposition
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+/main/other/d057
+Label: Correction d'exposition (valeur d'exposition)
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+/main/other/d059
+Label: Zone pondérée centrale
+Type: MENU
+Current: 1
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+/main/other/d05a
+Label: Matrice de base d'exposition
+Type: MENU
+Current: 0
+Choice: 0 -6
+Choice: 1 -5
+Choice: 2 -4
+Choice: 3 -3
+Choice: 4 -2
+Choice: 5 -1
+Choice: 6 0
+Choice: 7 1
+Choice: 8 2
+Choice: 9 3
+Choice: 10 4
+Choice: 11 5
+Choice: 12 6
+/main/other/d05b
+Label: Centre de base d'exposition
+Type: MENU
+Current: 0
+Choice: 0 -6
+Choice: 1 -5
+Choice: 2 -4
+Choice: 3 -3
+Choice: 4 -2
+Choice: 5 -1
+Choice: 6 0
+Choice: 7 1
+Choice: 8 2
+Choice: 9 3
+Choice: 10 4
+Choice: 11 5
+Choice: 12 6
+/main/other/d05c
+Label: Point de base d'exposition
+Type: MENU
+Current: 0
+Choice: 0 -6
+Choice: 1 -5
+Choice: 2 -4
+Choice: 3 -3
+Choice: 4 -2
+Choice: 5 -1
+Choice: 6 0
+Choice: 7 1
+Choice: 8 2
+Choice: 9 3
+Choice: 10 4
+Choice: 11 5
+Choice: 12 6
+/main/other/d05d
+Label: Zone de mise au point automatique en mode de visée par l’écran
+Type: MENU
+Current: 1
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+/main/other/d061
+Label: Mise au point automatique en mode de visée par l’écran
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 2
+Choice: 2 3
+Choice: 3 4
+/main/other/d067
+Label: Niveau d'angle
+Type: TEXT
+Current: 23408672
+/main/other/d068
+Label: Vitesse de prise du vue
+Type: MENU
+Current: 3
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+/main/other/d069
+Label: Prise de vue maximum 
+Type: MENU
+Current: 100
+Choice: 0 1
+Choice: 1 2
+Choice: 2 3
+Choice: 3 4
+Choice: 4 5
+Choice: 5 6
+Choice: 6 7
+Choice: 7 8
+Choice: 8 9
+Choice: 9 10
+Choice: 10 11
+Choice: 11 12
+Choice: 12 13
+Choice: 13 14
+Choice: 14 15
+Choice: 15 16
+Choice: 16 17
+Choice: 17 18
+Choice: 18 19
+Choice: 19 20
+Choice: 20 21
+Choice: 21 22
+Choice: 22 23
+Choice: 23 24
+Choice: 24 25
+Choice: 25 26
+Choice: 26 27
+Choice: 27 28
+Choice: 28 29
+Choice: 29 30
+Choice: 30 31
+Choice: 31 32
+Choice: 32 33
+Choice: 33 34
+Choice: 34 35
+Choice: 35 36
+Choice: 36 37
+Choice: 37 38
+Choice: 38 39
+Choice: 39 40
+Choice: 40 41
+Choice: 41 42
+Choice: 42 43
+Choice: 43 44
+Choice: 44 45
+Choice: 45 46
+Choice: 46 47
+Choice: 47 48
+Choice: 48 49
+Choice: 49 50
+Choice: 50 51
+Choice: 51 52
+Choice: 52 53
+Choice: 53 54
+Choice: 54 55
+Choice: 55 56
+Choice: 56 57
+Choice: 57 58
+Choice: 58 59
+Choice: 59 60
+Choice: 60 61
+Choice: 61 62
+Choice: 62 63
+Choice: 63 64
+Choice: 64 65
+Choice: 65 66
+Choice: 66 67
+Choice: 67 68
+Choice: 68 69
+Choice: 69 70
+Choice: 70 71
+Choice: 71 72
+Choice: 72 73
+Choice: 73 74
+Choice: 74 75
+Choice: 75 76
+Choice: 76 77
+Choice: 77 78
+Choice: 78 79
+Choice: 79 80
+Choice: 80 81
+Choice: 81 82
+Choice: 82 83
+Choice: 83 84
+Choice: 84 85
+Choice: 85 86
+Choice: 86 87
+Choice: 87 88
+Choice: 88 89
+Choice: 89 90
+Choice: 90 91
+Choice: 91 92
+Choice: 92 93
+Choice: 93 94
+Choice: 94 95
+Choice: 95 96
+Choice: 96 97
+Choice: 97 98
+Choice: 98 99
+Choice: 99 100
+/main/other/d06a
+Label: Mode de temporisation d'exposition
+Type: MENU
+Current: 3
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+/main/other/d06b
+Label: Réduction du bruit pour exposition longue
+Type: MENU
+Current: 1
+Choice: 0 0
+Choice: 1 1
+/main/other/d06c
+Label: Numéro de fichier séquencé
+Type: MENU
+Current: 1
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+/main/other/d070
+Label: Réduction du bruit pour grande ISO
+Type: MENU
+Current: 2
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+/main/other/d072
+Label: Nom de l'artiste
+Type: TEXT
+Current: (null)
+/main/other/d073
+Label: Renseignements sur les droits d'auteur
+Type: TEXT
+Current: (null)
+/main/other/d074
+Label: Vitesse de synchronisation du flash
+Type: MENU
+Current: 2
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+Choice: 6 6
+Choice: 7 7
+Choice: 8 8
+/main/other/d075
+Label: Temps de pose avec flash
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+Choice: 6 6
+Choice: 7 7
+Choice: 8 8
+Choice: 9 9
+Choice: 10 10
+Choice: 11 11
+/main/other/d078
+Label: Bracket défini
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+/main/other/d079
+Label: Mode bracketing manuel
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+/main/other/d07a
+Label: Ordre de bracket
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+/main/other/d07d
+Label: PTP Property 0xd07d
+Type: TEXT
+Current: 22767038
+/main/other/d07e
+Label: PTP Property 0xd07e
+Type: TEXT
+Current: -1
+/main/other/d07f
+Label: PTP Property 0xd07f
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+/main/other/d087
+Label: Réglages de l'ouverture du diaphragme
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+/main/other/d08a
+Label: Pas de carte CompactFlash libérée
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+/main/other/d08d
+Label: Zone ponctuelle de mise au point automatique
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+/main/other/d08f
+Label: Nettoyer le capteur d'image
+Type: MENU
+Current: 3
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+/main/other/d090
+Label: Commentaire d'image
+Type: TEXT
+Current:                                     
+/main/other/d091
+Label: Commentaire d'image activé
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+/main/other/d092
+Label: Rotation de l'image
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+/main/other/d093
+Label: Définition manuelle du nombre d'objectifs
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+Choice: 6 6
+Choice: 7 7
+Choice: 8 8
+/main/other/d0a0
+Label: Taille de l'écran de film
+Type: MENU
+Current: 1
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+Choice: 6 6
+/main/other/d0a2
+Label: Microphone du film
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+/main/other/d0a3
+Label: Emplacement de carte du film
+Type: MENU
+Current: 1
+Choice: 0 0
+Choice: 1 1
+/main/other/d0a4
+Label: PTP Property 0xd0a4
+Type: TEXT
+Current: 16384
+/main/other/d0a7
+Label: Qualité du film
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+/main/other/d0a8
+Label: PTP Property 0xd0a8
+Type: MENU
+Current: 1
+Choice: 0 1
+Choice: 1 2
+Choice: 2 3
+Choice: 3 4
+Choice: 4 5
+Choice: 5 6
+Choice: 6 7
+Choice: 7 8
+Choice: 8 9
+Choice: 9 10
+Choice: 10 11
+Choice: 11 12
+Choice: 12 13
+Choice: 13 14
+Choice: 14 15
+Choice: 15 16
+Choice: 16 17
+Choice: 17 18
+Choice: 18 19
+Choice: 19 20
+/main/other/d0b4
+Label: PTP Property 0xd0b4
+Type: MENU
+Current: 1000
+Choice: 0 50
+Choice: 1 64
+Choice: 2 80
+Choice: 3 100
+Choice: 4 125
+Choice: 5 160
+Choice: 6 200
+Choice: 7 250
+Choice: 8 320
+Choice: 9 400
+Choice: 10 500
+Choice: 11 640
+Choice: 12 800
+Choice: 13 1000
+Choice: 14 1250
+Choice: 15 1600
+Choice: 16 2000
+Choice: 17 2500
+Choice: 18 3200
+Choice: 19 4000
+Choice: 20 5000
+Choice: 21 6400
+Choice: 22 8000
+Choice: 23 10000
+Choice: 24 12800
+Choice: 25 25600
+/main/other/d0c0
+Label: Bracketing activé
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+/main/other/d0c1
+Label: Palier d'exposition du bracketing
+Type: MENU
+Current: 2
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+/main/other/d0c2
+Label: Programme d'exposition du bracketing
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+Choice: 6 6
+Choice: 7 7
+/main/other/d0c3
+Label: Mesure d'exposition automatique de bracket
+Type: MENU
+Current: 1
+Choice: 0 1
+Choice: 1 2
+Choice: 2 3
+/main/other/d0c4
+Label: Palier de balance des blancs du bracket
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+/main/other/d0c5
+Label: Programme de balance des blancs du bracket
+Type: MENU
+Current: 3
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+Choice: 6 6
+Choice: 7 7
+/main/other/d0c6
+Label: PTP Property 0xd0c6
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+/main/other/d0c7
+Label: PTP Property 0xd0c7
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+/main/other/d0e0
+Label: Identifiant de l'objectif
+Type: TEXT
+Current: 147
+/main/other/d0e1
+Label: Genre d'objectif
+Type: MENU
+Current: 1
+Choice: 0 0
+Choice: 1 1
+/main/other/d0e2
+Label: Type d'objectif
+Type: TEXT
+Current: 35
+/main/other/d0e3
+Label: Distance focale minimale
+Type: TEXT
+Current: 2400
+/main/other/d0e4
+Label: Distance focale maximale
+Type: TEXT
+Current: 7000
+/main/other/d0e5
+Label: Ouverture maximale à la distance focale minimale
+Type: TEXT
+Current: 280
+/main/other/d0e6
+Label: Ouverture minimale à la distance focale maximale
+Type: TEXT
+Current: 280
+/main/other/d0f7
+Label: Contrôle des vignettes
+Type: MENU
+Current: 1
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+/main/other/d0f8
+Label: Contrôle de distorsion automatique
+Type: MENU
+Current: 1
+Choice: 0 0
+Choice: 1 1
+/main/other/d100
+Label: Temps de pose du Nikon
+Type: MENU
+Current: 65566
+Choice: 0 73536
+Choice: 1 71936
+Choice: 2 70536
+Choice: 3 69536
+Choice: 4 68736
+Choice: 5 68036
+Choice: 6 67536
+Choice: 7 67136
+Choice: 8 66786
+Choice: 9 66536
+Choice: 10 66336
+Choice: 11 66176
+Choice: 12 66036
+Choice: 13 65936
+Choice: 14 65856
+Choice: 15 65786
+Choice: 16 65736
+Choice: 17 65696
+Choice: 18 65661
+Choice: 19 65636
+Choice: 20 65616
+Choice: 21 65596
+Choice: 22 65586
+Choice: 23 65576
+Choice: 24 65566
+Choice: 25 65561
+Choice: 26 65556
+Choice: 27 65551
+Choice: 28 65549
+Choice: 29 65546
+Choice: 30 65544
+Choice: 31 65542
+Choice: 32 65541
+Choice: 33 65540
+Choice: 34 65539
+Choice: 35 655385
+Choice: 36 65538
+Choice: 37 655376
+Choice: 38 655373
+Choice: 39 65537
+Choice: 40 851978
+Choice: 41 1048586
+Choice: 42 131073
+Choice: 43 1638410
+Choice: 44 196609
+Choice: 45 262145
+Choice: 46 327681
+Choice: 47 393217
+Choice: 48 524289
+Choice: 49 655361
+Choice: 50 851969
+Choice: 51 983041
+Choice: 52 1310721
+Choice: 53 1638401
+Choice: 54 1966081
+Choice: 55 -2
+Choice: 56 -1
+/main/other/d101
+Label: Alimentation sur secteur
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+/main/other/d102
+Label: État d'alerte
+Type: TEXT
+Current: 0
+/main/other/d103
+Label: Prise de vue maximum 
+Type: MENU
+Current: 11
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+Choice: 6 6
+Choice: 7 7
+Choice: 8 8
+Choice: 9 9
+Choice: 10 10
+Choice: 11 11
+Choice: 12 12
+Choice: 13 13
+Choice: 14 14
+Choice: 15 15
+Choice: 16 16
+Choice: 17 17
+Choice: 18 18
+Choice: 19 19
+Choice: 20 20
+Choice: 21 21
+Choice: 22 22
+Choice: 23 23
+Choice: 24 24
+Choice: 25 25
+Choice: 26 26
+Choice: 27 27
+Choice: 28 28
+Choice: 29 29
+Choice: 30 30
+Choice: 31 31
+Choice: 32 32
+Choice: 33 33
+Choice: 34 34
+Choice: 35 35
+Choice: 36 36
+Choice: 37 37
+Choice: 38 38
+Choice: 39 39
+Choice: 40 40
+Choice: 41 41
+Choice: 42 42
+Choice: 43 43
+Choice: 44 44
+Choice: 45 45
+Choice: 46 46
+Choice: 47 47
+Choice: 48 48
+Choice: 49 49
+Choice: 50 50
+Choice: 51 51
+Choice: 52 52
+Choice: 53 53
+Choice: 54 54
+Choice: 55 55
+Choice: 56 56
+Choice: 57 57
+Choice: 58 58
+Choice: 59 59
+Choice: 60 60
+Choice: 61 61
+Choice: 62 62
+Choice: 63 63
+Choice: 64 64
+Choice: 65 65
+Choice: 66 66
+Choice: 67 67
+Choice: 68 68
+Choice: 69 69
+Choice: 70 70
+Choice: 71 71
+Choice: 72 72
+Choice: 73 73
+Choice: 74 74
+Choice: 75 75
+Choice: 76 76
+Choice: 77 77
+Choice: 78 78
+Choice: 79 79
+Choice: 80 80
+Choice: 81 81
+Choice: 82 82
+Choice: 83 83
+Choice: 84 84
+Choice: 85 85
+Choice: 86 86
+Choice: 87 87
+Choice: 88 88
+Choice: 89 89
+Choice: 90 90
+Choice: 91 91
+Choice: 92 92
+Choice: 93 93
+Choice: 94 94
+Choice: 95 95
+Choice: 96 96
+Choice: 97 97
+Choice: 98 98
+Choice: 99 99
+/main/other/d104
+Label: Mise au point automatique verrouillée
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+/main/other/d105
+Label: Exposition automatique verrouillée
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+/main/other/d106
+Label: Valeur de flash verrouillée
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+/main/other/d108
+Label: Capteur de mise au point automatique activé
+Type: MENU
+Current: 14
+Choice: 0 1
+Choice: 1 2
+Choice: 2 3
+Choice: 3 4
+Choice: 4 5
+Choice: 5 6
+Choice: 6 7
+Choice: 7 8
+Choice: 8 9
+Choice: 9 10
+Choice: 10 11
+Choice: 11 12
+Choice: 12 13
+Choice: 13 14
+Choice: 14 15
+Choice: 15 16
+Choice: 16 17
+Choice: 17 18
+Choice: 18 19
+Choice: 19 20
+Choice: 20 21
+Choice: 21 22
+Choice: 22 23
+Choice: 23 24
+Choice: 24 25
+Choice: 25 26
+Choice: 26 27
+Choice: 27 28
+Choice: 28 29
+Choice: 29 30
+Choice: 30 31
+Choice: 31 32
+Choice: 32 33
+Choice: 33 34
+Choice: 34 35
+Choice: 35 36
+Choice: 36 37
+Choice: 37 38
+Choice: 38 39
+Choice: 39 40
+Choice: 40 41
+Choice: 41 42
+Choice: 42 43
+Choice: 43 44
+Choice: 44 45
+Choice: 45 46
+Choice: 46 47
+Choice: 47 48
+Choice: 48 49
+Choice: 49 50
+Choice: 50 51
+/main/other/d109
+Label: Programme flexible
+Type: RANGE
+Current: 0
+Bottom: -30
+Top: 30
+Step: 2
+/main/other/d10b
+Label: Support d'enregistrement
+Type: MENU
+Current: 1
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+/main/other/d10c
+Label: Vitesse du port USB
+Type: MENU
+Current: 1
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+/main/other/d10e
+Label: Orientation de la l'appareil
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+/main/other/d112
+Label: Réglage du verrouillage télévision
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+/main/other/d113
+Label: Réglage du verrouillage de priorité à l'ouverture
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+/main/other/d120
+Label: Flash externe connecté
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+/main/other/d121
+Label: État du flash externe
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+/main/other/d122
+Label: Spécification du flash externe
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+/main/other/d124
+Label: Correction d'exposition par le flash externe
+Type: MENU
+Current: 0
+Choice: 0 -18
+Choice: 1 -17
+Choice: 2 -16
+Choice: 3 -15
+Choice: 4 -14
+Choice: 5 -13
+Choice: 6 -12
+Choice: 7 -11
+Choice: 8 -10
+Choice: 9 -9
+Choice: 10 -8
+Choice: 11 -7
+Choice: 12 -6
+Choice: 13 -5
+Choice: 14 -4
+Choice: 15 -3
+Choice: 16 -2
+Choice: 17 -1
+Choice: 18 0
+Choice: 19 1
+Choice: 20 2
+Choice: 21 3
+Choice: 22 4
+Choice: 23 5
+Choice: 24 6
+Choice: 25 7
+Choice: 26 8
+Choice: 27 9
+Choice: 28 10
+Choice: 29 11
+Choice: 30 12
+Choice: 31 13
+Choice: 32 14
+Choice: 33 15
+Choice: 34 16
+Choice: 35 17
+Choice: 36 18
+/main/other/d125
+Label: Mode de flash externe
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+Choice: 6 6
+Choice: 7 7
+/main/other/d126
+Label: Correction d'exposition par le flash
+Type: RANGE
+Current: 0
+Bottom: -18
+Top: 6
+Step: 2
+/main/other/d130
+Label: Mode grande gamme dynamique (HDR)
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+/main/other/d131
+Label: Grande gamme dynamique (HDR)
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+/main/other/d132
+Label: Lissage de grande gamme dynamique (HDR)
+Type: MENU
+Current: 1
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+/main/other/d141
+Label: PTP Property 0xd141
+Type: MENU
+Current: 1
+Choice: 0 0
+Choice: 1 1
+/main/other/d148
+Label: Mode de sauvegarde emplacement 2
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+/main/other/d149
+Label: Mode de bit brut
+Type: MENU
+Current: 1
+Choice: 0 0
+Choice: 1 1
+/main/other/d14e
+Label: D-Lighting actif
+Type: MENU
+Current: 5
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+/main/other/d14f
+Label: Type fluorescent
+Type: MENU
+Current: 3
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+Choice: 6 6
+/main/other/d150
+Label: Ajuster la température de couleur
+Type: MENU
+Current: 6
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+Choice: 6 6
+Choice: 7 7
+Choice: 8 8
+Choice: 9 9
+Choice: 10 10
+Choice: 11 11
+Choice: 12 12
+/main/other/d152
+Label: Ajuster la préconfiguration 1
+Type: RANGE
+Current: 84
+Bottom: 0
+Top: 168
+Step: 1
+/main/other/d153
+Label: Ajuster la préconfiguration 2
+Type: RANGE
+Current: 84
+Bottom: 0
+Top: 168
+Step: 1
+/main/other/d154
+Label: Ajuster la préconfiguration 3
+Type: RANGE
+Current: 84
+Bottom: 0
+Top: 168
+Step: 1
+/main/other/d155
+Label: Ajuster la préconfiguration 4
+Type: RANGE
+Current: 84
+Bottom: 0
+Top: 168
+Step: 1
+/main/other/d156
+Label: PTP Property 0xd156
+Type: MENU
+Current: 1
+Choice: 0 0
+Choice: 1 1
+/main/other/d158
+Label: PTP Property 0xd158
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+/main/other/d159
+Label: PTP Property 0xd159
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+/main/other/d15a
+Label: PTP Property 0xd15a
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+/main/other/d15b
+Label: PTP Property 0xd15b
+Type: RANGE
+Current: 106
+Bottom: 100
+Top: 999
+Step: 1
+/main/other/d15c
+Label: PTP Property 0xd15c
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+/main/other/d15d
+Label: PTP Property 0xd15d
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+/main/other/d161
+Label: Mode de mise au point automatique
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+/main/other/d163
+Label: Éclairage d'assistance de mise au point automatique
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+/main/other/d164
+Label: Réglage automatique ISO P/A/DVP
+Type: MENU
+Current: 19
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+Choice: 6 6
+Choice: 7 7
+Choice: 8 8
+Choice: 9 9
+Choice: 10 10
+Choice: 11 11
+Choice: 12 12
+Choice: 13 13
+Choice: 14 14
+Choice: 15 15
+Choice: 16 16
+Choice: 17 17
+Choice: 18 18
+Choice: 19 19
+Choice: 20 20
+Choice: 21 21
+Choice: 22 22
+Choice: 23 23
+Choice: 24 24
+Choice: 25 25
+Choice: 26 26
+Choice: 27 27
+/main/other/d167
+Label: Mode de flash
+Type: MENU
+Current: 1
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+/main/other/d183
+Label: Limite haute d'ISO automatique
+Type: MENU
+Current: 20
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+Choice: 6 6
+Choice: 7 7
+Choice: 8 8
+Choice: 9 9
+Choice: 10 10
+Choice: 11 11
+Choice: 12 12
+Choice: 13 13
+Choice: 14 14
+Choice: 15 15
+Choice: 16 16
+Choice: 17 17
+Choice: 18 18
+Choice: 19 19
+Choice: 20 20
+Choice: 21 21
+Choice: 22 22
+Choice: 23 23
+Choice: 24 24
+Choice: 25 25
+/main/other/d197
+Label: PTP Property 0xd197
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+/main/other/d1a2
+Label: État du mode de visée par l’écran
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+/main/other/d1a3
+Label: Rapport du zoom d'image en mode de visée par l’écran
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+/main/other/d1a4
+Label: Condition interdite en mode de visée par l’écran
+Type: TEXT
+Current: 0
+/main/other/d1a5
+Label: PTP Property 0xd1a5
+Type: MENU
+Current: 1
+Choice: 0 0
+Choice: 1 1
+/main/other/d1a6
+Label: PTP Property 0xd1a6
+Type: MENU
+Current: 1
+Choice: 0 0
+Choice: 1 1
+/main/other/d1a7
+Label: PTP Property 0xd1a7
+Type: MENU
+Current: 2
+Choice: 0 2
+Choice: 1 4
+Choice: 2 5
+Choice: 3 6
+Choice: 4 7
+Choice: 5 32784
+Choice: 6 32785
+Choice: 7 32786
+Choice: 8 32787
+/main/other/d1a8
+Label: PTP Property 0xd1a8
+Type: MENU
+Current: 65561
+Choice: 0 73536
+Choice: 1 71936
+Choice: 2 70536
+Choice: 3 69536
+Choice: 4 68736
+Choice: 5 68036
+Choice: 6 67536
+Choice: 7 67136
+Choice: 8 66786
+Choice: 9 66536
+Choice: 10 66336
+Choice: 11 66176
+Choice: 12 66036
+Choice: 13 65936
+Choice: 14 65856
+Choice: 15 65786
+Choice: 16 65736
+Choice: 17 65696
+Choice: 18 65661
+Choice: 19 65636
+Choice: 20 65616
+Choice: 21 65596
+Choice: 22 65586
+Choice: 23 65576
+Choice: 24 65566
+Choice: 25 65561
+/main/other/d1a9
+Label: PTP Property 0xd1a9
+Type: MENU
+Current: 280
+Choice: 0 280
+Choice: 1 320
+Choice: 2 350
+Choice: 3 400
+Choice: 4 450
+Choice: 5 500
+Choice: 6 560
+Choice: 7 630
+Choice: 8 710
+Choice: 9 800
+Choice: 10 900
+Choice: 11 1000
+Choice: 12 1100
+Choice: 13 1300
+Choice: 14 1400
+Choice: 15 1600
+Choice: 16 1800
+Choice: 17 2000
+Choice: 18 2200
+/main/other/d1aa
+Label: PTP Property 0xd1aa
+Type: MENU
+Current: 4000
+Choice: 0 100
+Choice: 1 125
+Choice: 2 160
+Choice: 3 200
+Choice: 4 250
+Choice: 5 320
+Choice: 6 400
+Choice: 7 500
+Choice: 8 640
+Choice: 9 800
+Choice: 10 1000
+Choice: 11 1250
+Choice: 12 1600
+Choice: 13 2000
+Choice: 14 2500
+Choice: 15 3200
+Choice: 16 4000
+Choice: 17 5000
+Choice: 18 6400
+Choice: 19 8000
+Choice: 20 10000
+Choice: 21 12800
+Choice: 22 25600
+/main/other/d1ab
+Label: PTP Property 0xd1ab
+Type: MENU
+Current: 0
+Choice: 0 -3000
+Choice: 1 -2666
+Choice: 2 -2333
+Choice: 3 -2000
+Choice: 4 -1666
+Choice: 5 -1333
+Choice: 6 -1000
+Choice: 7 -666
+Choice: 8 -333
+Choice: 9 0
+Choice: 10 333
+Choice: 11 666
+Choice: 12 1000
+Choice: 13 1333
+Choice: 14 1666
+Choice: 15 2000
+Choice: 16 2333
+Choice: 17 2666
+Choice: 18 3000
+/main/other/d1ac
+Label: PTP Property 0xd1ac
+Type: MENU
+Current: 2
+Choice: 0 1
+Choice: 1 2
+/main/other/d1b0
+Label: Affichage de l'état d'exposition
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+/main/other/d1b1
+Label: État d'indicateur d'exposition 
+Type: MENU
+Current: -18
+Choice: 0 -60
+Choice: 1 -59
+Choice: 2 -58
+Choice: 3 -57
+Choice: 4 -56
+Choice: 5 -55
+Choice: 6 -54
+Choice: 7 -53
+Choice: 8 -52
+Choice: 9 -51
+Choice: 10 -50
+Choice: 11 -49
+Choice: 12 -48
+Choice: 13 -47
+Choice: 14 -46
+Choice: 15 -45
+Choice: 16 -44
+Choice: 17 -43
+Choice: 18 -42
+Choice: 19 -41
+Choice: 20 -40
+Choice: 21 -39
+Choice: 22 -38
+Choice: 23 -37
+Choice: 24 -36
+Choice: 25 -35
+Choice: 26 -34
+Choice: 27 -33
+Choice: 28 -32
+Choice: 29 -31
+Choice: 30 -30
+Choice: 31 -29
+Choice: 32 -28
+Choice: 33 -27
+Choice: 34 -26
+Choice: 35 -25
+Choice: 36 -24
+Choice: 37 -23
+Choice: 38 -22
+Choice: 39 -21
+Choice: 40 -20
+Choice: 41 -19
+Choice: 42 -18
+Choice: 43 -17
+Choice: 44 -16
+Choice: 45 -15
+Choice: 46 -14
+Choice: 47 -13
+Choice: 48 -12
+Choice: 49 -11
+Choice: 50 -10
+Choice: 51 -9
+Choice: 52 -8
+Choice: 53 -7
+Choice: 54 -6
+Choice: 55 -5
+Choice: 56 -4
+Choice: 57 -3
+Choice: 58 -2
+Choice: 59 -1
+Choice: 60 0
+Choice: 61 1
+Choice: 62 2
+Choice: 63 3
+Choice: 64 4
+Choice: 65 5
+Choice: 66 6
+Choice: 67 7
+Choice: 68 8
+Choice: 69 9
+Choice: 70 10
+Choice: 71 11
+Choice: 72 12
+Choice: 73 13
+Choice: 74 14
+Choice: 75 15
+Choice: 76 16
+Choice: 77 17
+Choice: 78 18
+Choice: 79 19
+Choice: 80 20
+Choice: 81 21
+Choice: 82 22
+Choice: 83 23
+Choice: 84 24
+Choice: 85 25
+Choice: 86 26
+Choice: 87 27
+Choice: 88 28
+Choice: 89 29
+Choice: 90 30
+Choice: 91 31
+Choice: 92 32
+Choice: 93 33
+Choice: 94 34
+Choice: 95 35
+Choice: 96 36
+Choice: 97 37
+Choice: 98 38
+Choice: 99 39
+Choice: 100 40
+Choice: 101 41
+Choice: 102 42
+Choice: 103 43
+Choice: 104 44
+Choice: 105 45
+Choice: 106 46
+Choice: 107 47
+Choice: 108 48
+Choice: 109 49
+Choice: 110 50
+Choice: 111 51
+Choice: 112 52
+Choice: 113 53
+Choice: 114 54
+Choice: 115 55
+Choice: 116 56
+Choice: 117 57
+Choice: 118 58
+Choice: 119 59
+Choice: 120 60
+/main/other/d1b2
+Label: État d'erreur d'affichage de renseignements
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+/main/other/d1b3
+Label: L'éclairage indique l'exposition
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+/main/other/d1b4
+Label: PTP Property 0xd1b4
+Type: MENU
+Current: 11
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+Choice: 4 4
+Choice: 5 5
+Choice: 6 6
+Choice: 7 7
+Choice: 8 8
+Choice: 9 9
+Choice: 10 10
+Choice: 11 11
+Choice: 12 12
+Choice: 13 13
+Choice: 14 14
+Choice: 15 15
+Choice: 16 16
+Choice: 17 17
+Choice: 18 18
+Choice: 19 19
+Choice: 20 20
+Choice: 21 21
+Choice: 22 22
+Choice: 23 23
+Choice: 24 24
+Choice: 25 25
+Choice: 26 26
+Choice: 27 27
+Choice: 28 28
+Choice: 29 29
+Choice: 30 30
+Choice: 31 31
+Choice: 32 32
+Choice: 33 33
+Choice: 34 34
+Choice: 35 35
+Choice: 36 36
+Choice: 37 37
+Choice: 38 38
+Choice: 39 39
+Choice: 40 40
+Choice: 41 41
+Choice: 42 42
+Choice: 43 43
+Choice: 44 44
+Choice: 45 45
+Choice: 46 46
+Choice: 47 47
+Choice: 48 48
+Choice: 49 49
+Choice: 50 50
+Choice: 51 51
+Choice: 52 52
+Choice: 53 53
+Choice: 54 54
+Choice: 55 55
+Choice: 56 56
+Choice: 57 57
+Choice: 58 58
+Choice: 59 59
+Choice: 60 60
+Choice: 61 61
+Choice: 62 62
+Choice: 63 63
+Choice: 64 64
+Choice: 65 65
+Choice: 66 66
+Choice: 67 67
+Choice: 68 68
+Choice: 69 69
+Choice: 70 70
+Choice: 71 71
+Choice: 72 72
+Choice: 73 73
+Choice: 74 74
+Choice: 75 75
+Choice: 76 76
+Choice: 77 77
+Choice: 78 78
+Choice: 79 79
+Choice: 80 80
+Choice: 81 81
+Choice: 82 82
+Choice: 83 83
+Choice: 84 84
+Choice: 85 85
+Choice: 86 86
+Choice: 87 87
+Choice: 88 88
+Choice: 89 89
+Choice: 90 90
+Choice: 91 91
+Choice: 92 92
+Choice: 93 93
+Choice: 94 94
+Choice: 95 95
+Choice: 96 96
+Choice: 97 97
+Choice: 98 98
+Choice: 99 99
+/main/other/d1c0
+Label: Flash activé
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+/main/other/d1c1
+Label: Flash chargé
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+/main/other/d1f0
+Label: PTP Property 0xd1f0
+Type: MENU
+Current: 0
+Choice: 0 0
+Choice: 1 1
+/main/other/d1f1
+Label: PTP Property 0xd1f1
+Type: RANGE
+Current: 477
+Bottom: 0
+Top: 65535
+Step: 1
+/main/other/d1f2
+Label: PTP Property 0xd1f2
+Type: MENU
+Current: 2
+Choice: 0 0
+Choice: 1 1
+Choice: 2 2
+Choice: 3 3
+/main/other/d1f4
+Label: PTP Property 0xd1f4
+Type: MENU
+Current: 0
+Choice: 0 -2
+Choice: 1 -1
+Choice: 2 0
+Choice: 3 1
+Choice: 4 2
+/main/other/d200
+Label: Activer le contrôle d'image
+Type: MENU
+Current: 2
+Choice: 0 1
+Choice: 1 2
+Choice: 2 3
+Choice: 3 4
+Choice: 4 5
+Choice: 5 6
+Choice: 6 101
+Choice: 7 102
+Choice: 8 103
+Choice: 9 104
+Choice: 10 201
+Choice: 11 202
+Choice: 12 203
+Choice: 13 204
+Choice: 14 205
+Choice: 15 206
+Choice: 16 207
+Choice: 17 208
+Choice: 18 209
+/main/other/d201
+Label: Modifier le contrôle d'image
+Type: MENU
+Current: 0

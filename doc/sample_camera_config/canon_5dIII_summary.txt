@@ -1,0 +1,41 @@
+Camera summary:
+Manufacturer: Canon Inc.
+Model: Canon EOS 5D Mark III
+  Version: 3-1.2.1
+  Serial Number: 259aad1be9374eae8446dd3b3920643c
+Vendor Extension ID: 0xb (1.0)
+
+Capture Formats: JPEG
+Display Formats: Association/Directory, Script, DPOF, MS AVI, MS Wave, JPEG, CRW, Unknown(b103), Unknown(bf02), Defined Type, Unknown(b104), Unknown(b105)
+
+Device Capabilities:
+	File Download, File Deletion, File Upload
+	No Image Capture, No Open Capture, Canon EOS Capture, Canon EOS Shutter Button
+
+Storage Devices Summary:
+store_00010001:
+	StorageDescription: CF
+	VolumeLabel: None
+	Storage Type: Removable RAM (memory card)
+	Filesystemtype: Digital Camera Layout (DCIM)
+	Access Capability: Read-Write
+	Maximum Capability: 16018210816 (15276 MB)
+	Free Space (Bytes): 14203158528 (13545 MB)
+	Free Space (Images): -1
+store_00020001:
+	StorageDescription: SD
+	VolumeLabel: None
+	Storage Type: Removable RAM (memory card)
+	Filesystemtype: Digital Camera Layout (DCIM)
+	Access Capability: Read-Write
+	Maximum Capability: 15923150848 (15185 MB)
+	Free Space (Bytes): 15922921472 (15185 MB)
+	Free Space (Images): -1
+
+Device Property Summary:
+Property 0xd402:(read only) (type=0xffff) 'Canon EOS 5D Mark III'
+Property 0xd407:(read only) (type=0x6) 1
+Property 0xd406:(readwrite) (type=0xffff) 'Windows/10.0.14393 MTPClassDriver/10.0.14393.0'
+Property 0xd303:(read only) (type=0x2) 1
+Battery Level(0x5001):(read only) (type=0x2) Enumeration [100,0,75,0,50] value: 100% (100)
+
