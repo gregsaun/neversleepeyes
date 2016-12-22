@@ -2,3 +2,4 @@ https://github.com/jim-easterbrook/python-gphoto2
 https://github.com/dwiel/gphoto2-timelapse
 https://askubuntu.com/questions/645/how-do-you-reset-a-usb-device-from-the-command-line
 http://www.moreno.marzolla.name/software/linux-time-lapse/
+https://github.com/gonzalo/gphoto2-updater
