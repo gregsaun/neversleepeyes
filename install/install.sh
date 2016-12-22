@@ -55,6 +55,7 @@ if [ $(gphoto2 --version | tail -3 | awk '/^libgphoto2 / {print $2}') != "${LIBG
         raise_error "wrong version of libgphoto2, should be ${LIBGP_VERSION}"
 fi
 echo "gphoto2 and libgphoto2 are correctly installed :)"
+rm -f gphoto2-updater.sh*
 
 
 # Installation of python-gphoto2 (python binding for libgphoto2)
